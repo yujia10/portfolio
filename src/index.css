@@ -19,7 +19,7 @@
   --color-light: rgba(255, 255, 255, 0.6);
 
   --container-width-lg: 75%;
-  --container-width-md: 85%;
+  --container-width-md: 86%;
   --container-width-sm: 90%;
 
   --transition: all 400ms ease;
@@ -119,7 +119,6 @@ img {
 
   section {
     margin-top: 6rem;
-    height: 100vh;
   }
 }
 
