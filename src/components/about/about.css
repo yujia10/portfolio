@@ -32,16 +32,16 @@
   gap: 1.5rem;
 }
 .about-card {
-  background: var(--color-bg-variant);
-  border: 1px solid transparent;
+  background: transparent;
+  border: 1px solid var(--color-primary-variant);
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
 }
-.about-card:hover {
-  background: transparent;
-  border-color: var(--color-bg-variant);
-  cursor:default;
+.card-active {
+  background: var(--color-bg-variant);
+  border-color: transparent;
+  cursor:pointer;
 }
 .about-icon {
   color: var(--color-primary);

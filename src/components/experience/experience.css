@@ -1,14 +1,10 @@
 .experience-container {
-  background: var(--color-bg-variant);
+  background: transparent;
   padding: 2.4rem 5rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
+  border: 1px solid var(--color-primary-variant);
 }
-.experience-container:hover {
-  background: transparent;
-  border-color: var(--color-primary-variant);
-  cursor: default;
-}
+
 
 .experience-content {
   display: grid;

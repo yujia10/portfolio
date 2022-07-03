@@ -1,15 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './about.css'
-import ME2 from '../../assects/me2.JPG'
+import ME2 from '../../assets/me2.JPG'
 import {FaAward} from 'react-icons/fa'
-import {VscFolderLibrary} from 'react-icons/vsc'
-import {TbPlant} from 'react-icons/tb'
+
+const aboutData = {
+  Experience: 'I have 8 years experience of website/software localization and also used to be a childcare teacher. I have been teaching myself front-end development for a while and recently just finished a web development bootcamp. ',
+  Projects: 'My recent projects include a car rental website and a childcare search engine (with Ruby on Rails), a note-taking app (with React.js) and a plant manager (with React.js)',
+  Hobbies: 'I enjoy cooking and baking with my family. In my spare time, I love playing piano and caring for my succulents'
+}
 
 function About() {
+  const [cardActive, setCardActive] = useState('false')
+  const handleClick = ()=>{
+    setCardActive(!cardActive)
+  }
+
   return (
    <section id='about'>
-     <h5></h5>
-     <h2></h2>
+
 
      <div className="container about-container">
        <div className="about-me">
@@ -20,16 +28,16 @@ function About() {
 
        <div className="about-content">
          <div className="about-cards">
-           <article className="about-card">
+           <article className={cardActive ? 'about-card card-active' : 'about-card'} onClick={handleClick}>
              <FaAward className="about-icon"/>
              <h5>Experience</h5>
            </article>
-           <article className="about-card">
-             <VscFolderLibrary className="about-icon"/>
+           <article className= 'about-card'>
+           <FaAward className="about-icon"/>
              <h5>Projects</h5>
            </article>
-           <article className="about-card">
-             <TbPlant className="about-icon"/>
+           <article className= 'about-card'>
+           <FaAward className="about-icon"/>
              <h5>Hobbies</h5>
            </article>
          </div>
