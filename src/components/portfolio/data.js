@@ -26,7 +26,7 @@ const data = [
     img: notes,
     description: 'A note-taking app for adding, editing and deleting notes ',
     github: 'https://github.com/yujia10/sticky-notes-app.git',
-    demo: 'https://dribble.com/Alien_pixels'
+    demo: 'https://yujia10.github.io/sticky-notes-app/'
   },
   {
     id:4,
@@ -34,7 +34,7 @@ const data = [
     img: plants,
     description: 'A plants manager for viewing and managing plants. (still in development)',
     github: 'https://github.com/yujia10/my-little-garden.git',
-    demo: 'https://dribble.com/Alien_pixels'
+    demo: '#'
   }
 ]
 
