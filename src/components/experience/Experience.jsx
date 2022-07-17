@@ -21,11 +21,11 @@ const Experience = () => {
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-icon"/>
-              <h4>JavaScript</h4>
+              <h4>JavaScript/ES6</h4>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-icon"/>
-              <h4>Bootstrap</h4>
+              <h4>Bootstrap/SASS</h4>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-icon"/>
@@ -41,7 +41,7 @@ const Experience = () => {
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-icon"/>
-              <h4>SQL</h4>
+              <h4>PostgreSQL</h4>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-icon"/>

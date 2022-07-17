@@ -12,7 +12,7 @@ const aboutData = [
   {
     id:2,
     title:'Projects',
-    description: 'My recent projects are built with Ruby on Rails and React.js, including a car rental website, a childcare search engine, a note-taking app and a plants manager.'
+    description: 'My recent projects are built with React.js and Ruby on Rails, including a car rental website, a childcare search engine, a plant web app and a note-taking app.'
   },
   {
     id:3,
