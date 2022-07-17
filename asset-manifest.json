@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "./static/css/main.f9c54d55.css",
-    "main.js": "./static/js/main.47459b26.js",
+    "main.js": "./static/js/main.be27e796.js",
     "static/media/baby.png": "./static/media/baby.751010a199d7513c68fe.png",
-    "static/media/plants.png": "./static/media/plants.50eeccdf12c27e043de2.png",
     "static/media/sticky notes.png": "./static/media/sticky notes.411467fb3628c315e518.png",
     "static/media/car.png": "./static/media/car.06726b328a69e6ec11bd.png",
+    "static/media/plants.png": "./static/media/plants.068b8a51cf8a8ad75315.png",
     "static/media/me.jpg": "./static/media/me.93c808dc9ff0dc54d72e.jpg",
     "static/media/me2.JPG": "./static/media/me2.9a3676015e6096646e7f.JPG",
-    "static/media/CV_Yujia GU.pdf": "./static/media/CV_Yujia GU.83405f00d436d1f748de.pdf",
+    "static/media/Resume_Yujia GU.pdf": "./static/media/Resume_Yujia GU.1526ae70dbbfd99b77ab.pdf",
     "index.html": "./index.html",
     "main.f9c54d55.css.map": "./static/css/main.f9c54d55.css.map",
-    "main.47459b26.js.map": "./static/js/main.47459b26.js.map"
+    "main.be27e796.js.map": "./static/js/main.be27e796.js.map"
   },
   "entrypoints": [
     "static/css/main.f9c54d55.css",
-    "static/js/main.47459b26.js"
+    "static/js/main.be27e796.js"
   ]
 }
