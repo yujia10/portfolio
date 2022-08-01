@@ -2,6 +2,8 @@ import car from '../../assets/car.png'
 import baby from '../../assets/baby.png'
 import notes from '../../assets/sticky notes.png'
 import plants from '../../assets/plants.png'
+import Yummm from '../../assets/Yummm.png'
+import ecommerce from '../../assets/ecommerce.png'
 
 const data = [
   {
@@ -30,12 +32,29 @@ const data = [
   },
   {
     id:4,
+    title: 'Cake Shop',
+    img: ecommerce,
+    description: 'An ecommerce app for buying cakes. \n Built with Next.js',
+    github: 'https://github.com/yujia10/ecommerce-cake-shop',
+    demo: 'https://ecommerce-cake-shop.vercel.app/'
+  },
+  {
+    id:5,
     title: 'Sticky Notes',
     img: notes,
-    description: 'A note-taking app for adding, editing and deleting notes. \n Built with React.js',
+    description: 'A note-taking app for adding, editing and deleting notes. \n Built with React',
     github: 'https://github.com/yujia10/sticky-notes-app.git',
     demo: 'https://yujia10.github.io/sticky-notes-app/'
   },
+  {
+    id:6,
+    title: 'Yummm',
+    img: Yummm,
+    description: 'An recipe app that enables recipe search based on categories and key words using Spoonacular api. \n Built with React',
+    github: 'https://github.com/yujia10/Spoonacular-recipe-app',
+    demo: ''
+  },
+
 
 ]
 
